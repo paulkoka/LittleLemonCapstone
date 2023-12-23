@@ -13,6 +13,11 @@
 		E4798D492A96179A001C1989 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4798D482A96179A001C1989 /* Preview Assets.xcassets */; };
 		E4798D4B2A96179A001C1989 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4798D4A2A96179A001C1989 /* Persistence.swift */; };
 		E4798D4E2A96179A001C1989 /* LittleLemonCapstone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4798D4C2A96179A001C1989 /* LittleLemonCapstone.xcdatamodeld */; };
+		E49CDD592A964B2E00CD9644 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CDD582A964B2E00CD9644 /* Onboarding.swift */; };
+		E49CDD5C2A964B6300CD9644 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CDD5B2A964B6300CD9644 /* OnboardingViewModel.swift */; };
+		E49CDD5E2A964F9300CD9644 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CDD5D2A964F9300CD9644 /* LittleLemonLogo.swift */; };
+		E49CDD602A9653DE00CD9644 /* TitledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CDD5F2A9653DE00CD9644 /* TitledTextField.swift */; };
+		E49CDD632A965B7C00CD9644 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CDD622A965B7C00CD9644 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		E4798D482A96179A001C1989 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4798D4A2A96179A001C1989 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E4798D4D2A96179A001C1989 /* LittleLemonCapstone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleLemonCapstone.xcdatamodel; sourceTree = "<group>"; };
+		E49CDD582A964B2E00CD9644 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		E49CDD5B2A964B6300CD9644 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		E49CDD5D2A964F9300CD9644 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
+		E49CDD5F2A9653DE00CD9644 /* TitledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitledTextField.swift; sourceTree = "<group>"; };
+		E49CDD622A965B7C00CD9644 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,11 @@
 		E4798D402A961799001C1989 /* LittleLemonCapstone */ = {
 			isa = PBXGroup;
 			children = (
+				E49CDD612A965B6400CD9644 /* Extensions */,
+				E49CDD5A2A964B4500CD9644 /* Onboarding */,
 				E4798D412A961799001C1989 /* LittleLemonCapstoneApp.swift */,
 				E4798D432A961799001C1989 /* ContentView.swift */,
+				E49CDD5D2A964F9300CD9644 /* LittleLemonLogo.swift */,
 				E4798D452A96179A001C1989 /* Assets.xcassets */,
 				E4798D4A2A96179A001C1989 /* Persistence.swift */,
 				E4798D4C2A96179A001C1989 /* LittleLemonCapstone.xcdatamodeld */,
@@ -71,6 +84,24 @@
 				E4798D482A96179A001C1989 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E49CDD5A2A964B4500CD9644 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E49CDD5F2A9653DE00CD9644 /* TitledTextField.swift */,
+				E49CDD582A964B2E00CD9644 /* Onboarding.swift */,
+				E49CDD5B2A964B6300CD9644 /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E49CDD612A965B6400CD9644 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E49CDD622A965B7C00CD9644 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4798D4E2A96179A001C1989 /* LittleLemonCapstone.xcdatamodeld in Sources */,
+				E49CDD5C2A964B6300CD9644 /* OnboardingViewModel.swift in Sources */,
 				E4798D4B2A96179A001C1989 /* Persistence.swift in Sources */,
+				E49CDD5E2A964F9300CD9644 /* LittleLemonLogo.swift in Sources */,
+				E49CDD592A964B2E00CD9644 /* Onboarding.swift in Sources */,
 				E4798D442A961799001C1989 /* ContentView.swift in Sources */,
 				E4798D422A961799001C1989 /* LittleLemonCapstoneApp.swift in Sources */,
+				E49CDD632A965B7C00CD9644 /* Color+Extension.swift in Sources */,
+				E49CDD602A9653DE00CD9644 /* TitledTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
